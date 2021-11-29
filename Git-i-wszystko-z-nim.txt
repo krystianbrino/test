@@ -1,0 +1,25 @@
+1.mkdir nazwa - tworzy nowy folder
+1.cd /c/Users/polsource/test/Mojerepo - poprawna ścieżka, przejście do danego folderu
+2.Komenda touch nazwa.rozszerzenie - tworzy plik
+3. code . - komenda otwierająca Visual code
+4. git add nazwa.rozszerzenie - dodaje do śledzenia przez gita
+5. git commit -m"Tutaj komentarz - komitujemy czyli dodajemy  do repo
+6. git log - pokazuje nam całą historie commitów
+7. git add -A - dodaje wszystkie pliki do stagging area
+8. git commit -am"Komentarz" - komitujemy z komentarzem wiele plików
+9. git checkout -b"Nazwa" - Tworzenie nowego brancha
+10. q -wychodzenie z gi loga
+11. git checkout nazwabrancha - czyli przenosimy sie na brancha
+12. git merge nazwabrancha - przenosimy na obecnego brancha pliki z innego
+13. git branch -M main - zmiana nazwy naszego rancha w tym przypadku na main
+14. git push -u origin master - wypychanie naszych zmian na zewnetrzne repor
+15. Jeśli git zapta nas o hasło to korzystamy z tokenu - setting>develope settings>
+Personal access token>New personal>Nazwa tokena i wybieram Full control to repoo>Generate token
+16. git pull - komenda ktora sciaga zmiany z zewnetrzneg repo do naszego
+17. git pull --rebase - zaciagamy zmiany z repo i dajemy nasza zmiane na top!
+
+
+W gicie mamy trzy etapy:
+1.Working directory - tu używamy komendy add
+2.Staging area - tu używamy commit
+3.I repo czyli cieszymy się naszym plikiem w repo
