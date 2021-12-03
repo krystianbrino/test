@@ -8,3 +8,5 @@ if(age >= 18) {
 else {
     alert("You're not allowed to access to the website");
 }
+
+prompt("how")
